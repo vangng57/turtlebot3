@@ -1,0 +1,14 @@
+nsl:
+  params: # ten giong voi ten node
+    ros__parameters:
+      bool_value: True
+      int_number: 5
+      float_number: 3.14
+      str_text: "Hello"
+      bool_array: [True, False, True]
+      int_array: [1,2,3]
+      float_array: [3.4, 4.4]
+      str_array: ["a", "b"]
+      bytes_array: [0x01, 0xF1]
+      nested_param:
+        another_int: 7
